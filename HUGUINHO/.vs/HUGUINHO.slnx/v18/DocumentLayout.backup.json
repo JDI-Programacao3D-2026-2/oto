@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\shootpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shootpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\navmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\mouseorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouseorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\00000859601\\documents\\github\\oto\\huguinho\\assets\\scripts\\enemego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +34,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Projectile.cs",
+              "ToolTip": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\Projectile.cs",
+              "RelativeToolTip": "Assets\\scripts\\Projectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T23:32:02.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShootPool.cs",
+              "DocumentMoniker": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\ShootPool.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ShootPool.cs",
+              "ToolTip": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\ShootPool.cs",
+              "RelativeToolTip": "Assets\\scripts\\ShootPool.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T23:57:05.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "NavMesh.cs",
               "DocumentMoniker": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\NavMesh.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\NavMesh.cs",
               "ToolTip": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\NavMesh.cs",
               "RelativeToolTip": "Assets\\scripts\\NavMesh.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T00:19:12.81Z",
               "EditorCaption": ""
@@ -51,11 +85,12 @@
               "RelativeToolTip": "Assets\\scripts\\Movimento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-11T23:53:32.335Z"
+              "WhenOpened": "2026-09-11T23:53:32.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MouseOrbit.cs",
               "DocumentMoniker": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\MouseOrbit.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\MouseOrbit.cs",
@@ -67,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ENEMEGO.cs",
               "DocumentMoniker": "C:\\Users\\00000859601\\Documents\\GitHub\\oto\\HUGUINHO\\Assets\\scripts\\ENEMEGO.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\ENEMEGO.cs",
