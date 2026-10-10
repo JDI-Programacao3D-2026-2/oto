@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - player
-  - 
+  - minimap
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 2628934127
+    locked: 0
+  - name: minimap
+    uniqueID: 915631139
     locked: 0
   m_RenderingLayers:
   - Default

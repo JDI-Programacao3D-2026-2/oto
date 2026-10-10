@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\ENEMEGO.cs" />
-    <Compile Include="Assets\scripts\NavMesh.cs" />
     <Compile Include="Assets\scripts\EnemyNavMesh.cs" />
     <Compile Include="Assets\scripts\ShootPool.cs" />
     <Compile Include="Assets\scripts\Projectile.cs" />

@@ -1,7 +1,8 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.XR;
+
 
 
 public class EnemyNavMesh : MonoBehaviour
@@ -11,10 +12,12 @@ public class EnemyNavMesh : MonoBehaviour
     public Transform[] waypoints;
 
     public LayerMask layerMask;
+    public float losePlayerDistance = 15f; 
+
 
     public enum EnemyState
     {
-        Waypatrol, RandomPatrol, Pursuit
+        Waypatrol, RandomPatrol, Pursuit, Run
     }
 
     public EnemyState currentState = EnemyState.Waypatrol;
@@ -29,6 +32,26 @@ public class EnemyNavMesh : MonoBehaviour
         currentState = newState;
     }
 
+    void FiniteStateMachine()
+    {
+        switch (currentState)
+        {
+            case EnemyState.Pursuit:
+                Pursuit();
+                break;
+
+            case EnemyState.Waypatrol:
+                WayPatrol();
+                break;
+
+            case EnemyState.Run:
+                Run();
+                break;
+        }
+
+      
+    }
+
     void Pursuit()
     {
         if (player != null)
@@ -36,6 +59,12 @@ public class EnemyNavMesh : MonoBehaviour
             agent.stoppingDistance = 6f;
             agent.SetDestination(player.position);
             transform.LookAt(player);
+        }
+
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        if (distanceToPlayer > losePlayerDistance)
+        {
+            ChangeState(EnemyState.Waypatrol);
         }
     }
 
@@ -47,29 +76,42 @@ public class EnemyNavMesh : MonoBehaviour
             int randomIndex = UnityEngine.Random.Range(0, waypoints.Length);
             agent.SetDestination(waypoints[randomIndex].position);
         }
+        SearchPlayer();
     }
 
-  
-      void FiniteStateMachine()
+    void SearchPlayer()
     {
-        switch (currentState)
-        {
-            case EnemyState.Pursuit:
-                Pursuit();
-                break;
 
-            case EnemyState.Waypatrol:
-                WayPatrol();
-                break;
-        }
-
-        if(Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, 20f, layerMask))
+        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, 20f, layerMask))
         {
             ChangeState(EnemyState.Pursuit);
         }
         else
         {
-            ChangeState(EnemyState.Waypatrol);
+           CallBackup();
         }
     }
+     
+
+    void CallBackup()
+    {
+        EnemyNavMesh[] todosInimigos = FindObjectsByType<EnemyNavMesh>();
+        foreach (EnemyNavMesh aliado  in todosInimigos)
+        {
+
+            float distancia = Vector3.Distance(transform.position, aliado.transform.position);
+            if (distancia < 10f)
+            {
+                aliado.ChangeState(EnemyState.Pursuit);
+            }
+        }
+
+
+    }
+
+    void Run()
+    {
+
+    }
+
 }
