@@ -49,17 +49,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers.Common\Unity.Analyzers.Common.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\Unity.Analyzers.LongLiving\Unity.Analyzers.LongLiving.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\JobEntityGenerator.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.LambdaJobs.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.QueryBuilder.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.Query.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Common.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
-    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\JobEntityGenerator.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.LambdaJobs.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.QueryBuilder.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.SystemAPI.Query.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.Common.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Common.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\SystemGenerator.EntityQueryBulkOperations.dll" />
+    <Analyzer Include="C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\Microsoft.Extensions.Logging.Generators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
@@ -1546,12 +1546,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Entities.Build.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Numerics.Linear.Dense">
       <HintPath>Library\ScriptAssemblies\Unity.Numerics.Linear.Dense.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
@@ -1678,6 +1686,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor.Assistant">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.Assistant.dll</HintPath>
       <Private>False</Private>
@@ -1700,6 +1712,10 @@
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Physics.Editor.ProjectSettingsBridge">
