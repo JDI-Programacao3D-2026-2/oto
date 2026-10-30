@@ -1,53 +1,53 @@
-VBCSCompilerPreWarmer: watching VBCSCompiler (PID 21752)
-VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 21976)
-VBCSCompiler prewarm took 15.65 ms
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 149752)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 74588)
+VBCSCompiler prewarm took 12.92 ms
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-otomc" at "2026-10-30T07:13:19.2832074Z"
 Built from '6000.6/staging' branch; Version is '6000.6.5f1 (3ff58d469c8a) revision 4191629'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-00000859601" at "2026-10-27T21:33:00.1428975Z"
-OS: 'Windows 11  (10.0.26100) Professional' Language: 'pt' Physical Memory: 32400 MB
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'pt' Physical Memory: 16068 MB
 BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-27T21:33:00Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16144, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-10-30T07:13:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19832, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              f28d730bf7c14dfd9657b423613ed9f8
-  Correlation Id:          3ca42c65dedc2eb64a37a27dfb4cdd42
-  External correlation Id: 5755977703649782005
-  Machine Id:              frRfylFy/3RPPWzY6fdmOjaBO1s=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-00000859601" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-00000859601-notifications" at "2026-10-27T21:33:00.1695375Z"
+  Session Id:              a68f05d273734878aff0d8c76eb8288d
+  Correlation Id:          139959ba9bfaf89914d58c7c4766fdae
+  External correlation Id: 780171748153738721
+  Machine Id:              8g3K6zufau4cjkwR4F/AyP7a0KA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-otomc" (connect: 0.00s, validation: 0.00s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-otomc-notifications" at "2026-10-30T07:13:19.428706Z"
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated the access token rSbWjDM8Fw...
+[Licensing::Module] Successfully updated the access token TV3AdrNWF_...
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 4674073764412-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] Licensing Background thread has ended after 0.07s
+[Licensing::Module] Licensing Background thread has ended after 0.16s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Unity.exe
 -projectpath
-C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof
+C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof
 -acceptSoftwareTermsForThisRunOnly
 -useHub
 -hubIPC
 -cloudEnvironment
 production
 -licensingIpc
-LicenseClient-00000859601
+LicenseClient-otomc
 -hubSessionId
-2d2b5868-1a7c-4a27-8c87-f6e8ad55779a
+bf46e99b-a5ef-4be4-b3e9-fedd2e665c3d
 -accessToken
-rSbWjDM8FwsRRqx6MVE5-krhAzluSxrRzLl33K7qxDg004f
-Successfully changed project path to: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof
-C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof
+TV3AdrNWF_oQQvI10CtPg0IIxXtMHgb4KIJgNGMVFPk004f
+Successfully changed project path to: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof
+C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_Prof
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
@@ -85,28 +85,30 @@ C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [13364]  Target information:
+Player connection [150296]  Target information:
 
-Player connection [13364]  * "[IP] 10.1.1.152 [Port] 55504 [Flags] 2 [Guid] 3142944102 [EditorId] 3142944102 [Version] 1048832 [Id] WindowsEditor(7,A406-15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [150296]  * "[IP] 26.81.212.167 [Port] 55504 [Flags] 2 [Guid] 883507848 [EditorId] 883507848 [Version] 1048832 [Id] WindowsEditor(7,octopus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [13364] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [13364] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [150296]  * "[IP] 192.168.0.10 [Port] 55504 [Flags] 2 [Guid] 883507848 [EditorId] 883507848 [Version] 1048832 [Id] WindowsEditor(7,octopus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [150296] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [150296] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Package Manager] Connected to IPC stream "Upm-9708" after 0.2 seconds.
+[Package Manager] Connected to IPC stream "Upm-94044" after 0.4 seconds.
 [Licensing::Client] Successfully resolved entitlement details
 Library Redirect Path: Library/
 Initialising UDS system complete:
   - System type: Client
-  - Resource namespace: 5f1754d143f3cfb3dbab4cdd344b308e
+  - Resource namespace: 3aa3c4fd80844cccfc89f03059aa5eea
   - Shared memory size: 1073741824
   - Command buffer id: 1052576
   - Command buffer size: 8192
   - Hashmap size: 4194304
   - Service connected: false
 Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Tools/Unity.DataStore.exe 
-Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_ProfUnity Data Store running and initialised
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_ProfUnity Data Store running and initialised
 [Physics::Module] Selected backend (deferred post-plugins).
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -116,151 +118,150 @@ Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/000008
 Initialize engine version: 6000.6.5f1 (3ff58d469c8a)
 [EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof/Assets
+[Subsystems] Discovering subsystems at path C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_Prof/Assets
 [D3D12 Device Filter] Vendor Name: NVIDIA
-[D3D12 Device Filter] Device Name: NVIDIA T1000 8GB
-[D3D12 Device Filter] Driver Version: 32.0.15.9651
-[D3D12 Device Filter] Feature Level: 12.1
-[D3D12 Device Filter] Graphics Memory: 8015 MB
-[D3D12 Device Filter] Processor Count: 24
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.16.1088
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 6001 MB
+[D3D12 Device Filter] Processor Count: 16
 [D3D12 Device Filter] Device Type: Discrete
 GfxDevice: creating device client; kGfxThreadingModeSplitJobs
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA T1000 8GB (ID=0x1ff0)
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
     Vendor:          NVIDIA
-    VRAM:            8015 MB
-    App VRAM Budget: 7247 MB
-    Driver:          32.0.15.9651
+    VRAM:            6001 MB
+    App VRAM Budget: 5233 MB
+    Driver:          32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 CodeReloadManager initialized
 ImportWorker Server TCP listen port: 0
 AcceleratorClientConnectionCallback - disconnected - :0
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001831 seconds.
+Registered in 0.001852 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  0.722 seconds
-Domain Reload Profiling: 1203ms
-	BeginReloadAssembly (147ms)
-		CreateAndSetChildDomain (43ms)
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 1533ms
+	BeginReloadAssembly (139ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (5ms)
 	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (258ms)
-		LoadAssemblies (99ms)
-		TypeCache.Refresh (176ms)
-			TypeCache.ScanAssembly (164ms)
-		AnalyzeDomain (0ms)
-	FinalizeReload (722ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (109ms)
+		TypeCache.Refresh (194ms)
+			TypeCache.ScanAssembly (180ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1021ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (79ms)
-			ProcessInitializeOnLoadMethodAttributes (368ms)
-			EditorAssembliesLoaded (3ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (605ms)
 [Licensing::Client] Successfully resolved entitlement details
 Application.AssetDatabase Initial Refresh Start
 [Package Manager] Restoring resolved packages state from cache
 [Licensing::Client] Successfully resolved entitlement details
 [Package Manager] Registered 70 packages:
   Packages from [https://packages.unity.com]:
-    com.unity.ai.navigation@2.0.15 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ai.navigation@a9c5744fc1de)
-    com.unity.charactercontroller@1.4.5 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.charactercontroller@04c265bdb294)
-    com.unity.collab-proxy@2.13.6 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
-    com.unity.ide.rider@3.0.39 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
-    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
-    com.unity.inputsystem@1.20.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
-    com.unity.probuilder@6.1.4 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.probuilder@7ffe746297d0)
-    com.unity.visualscripting@1.9.12 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
-    com.unity.settings-manager@2.1.1 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
-    com.unity.splines@2.9.1 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.splines@edbe9aefec91)
-    com.unity.searcher@4.9.5 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.searcher@a463122f2c00)
-    com.unity.profiling.core@1.0.3 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
-    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
-    com.unity.scriptablebuildpipeline@3.0.3 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.scriptablebuildpipeline@61526b33bf2c)
+    com.unity.ai.navigation@2.0.15 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ai.navigation@a9c5744fc1de)
+    com.unity.charactercontroller@1.4.5 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.charactercontroller@04c265bdb294)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.39 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.probuilder@6.1.4 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.probuilder@7ffe746297d0)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.splines@2.9.1 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.splines@edbe9aefec91)
+    com.unity.searcher@4.9.5 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.scriptablebuildpipeline@3.0.3 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.scriptablebuildpipeline@61526b33bf2c)
   Built-in packages:
-    com.unity.2d.sprite@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
-    com.unity.cinemachine@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.cinemachine@ea71a007529e)
-    com.unity.multiplayer.center@2.0.1 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.multiplayer.center@01ba5271095b)
-    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.universal@2309ae255609)
-    com.unity.test-framework@1.8.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.test-framework@80f691d4262b)
-    com.unity.timeline@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.timeline@4891807c6bd8)
-    com.unity.ugui@2.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ugui@42f0bd825000)
-    com.unity.modules.accessibility@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.accessibility)
-    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.adaptiveperformance)
-    com.unity.modules.ai@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.ai)
-    com.unity.modules.androidjni@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.androidjni)
-    com.unity.modules.animation@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.animation)
-    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.assetbundle)
-    com.unity.modules.audio@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.audio)
-    com.unity.modules.cloth@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.cloth)
-    com.unity.modules.director@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.director)
-    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.imageconversion)
-    com.unity.modules.imgui@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.imgui)
-    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.jsonserialize)
-    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.particlesystem)
-    com.unity.modules.physics@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physics)
-    com.unity.modules.physics2d@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physics2d)
-    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physicscore2d)
-    com.unity.modules.screencapture@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.screencapture)
-    com.unity.modules.terrain@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.terrain)
-    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.terrainphysics)
-    com.unity.modules.tetgen@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.tetgen)
-    com.unity.modules.tilemap@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.tilemap)
-    com.unity.modules.ui@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.ui)
-    com.unity.modules.uielements@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.uielements)
-    com.unity.modules.umbra@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.umbra)
-    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unityanalytics)
-    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequest)
-    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
-    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
-    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
-    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestwww)
-    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.vectorgraphics)
-    com.unity.modules.vehicles@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.vehicles)
-    com.unity.modules.video@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.video)
-    com.unity.modules.wind@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.wind)
-    com.unity.modules.xr@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.xr)
-    com.unity.modules.subsystems@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.subsystems)
-    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.hierarchycore)
-    com.unity.ext.nunit@2.1.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
-    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
-    com.unity.shadergraph@17.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
-    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
-    com.unity.physics@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.physics@8d312bc11767)
-    com.unity.entities@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d)
-    com.unity.graph-authoring@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
-    com.unity.burst@2.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.burst@626e66ab421b)
-    com.unity.collections@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.collections@10fff0607388)
-    com.unity.mathematics@1.4.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
-    com.unity.test-framework.performance@6.6.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
-    com.unity.modules.hierarchy@1.0.0 (location: C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.hierarchy)
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.cinemachine@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.cinemachine@ea71a007529e)
+    com.unity.multiplayer.center@2.0.1 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.multiplayer.center@01ba5271095b)
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.universal@2309ae255609)
+    com.unity.test-framework@1.8.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.timeline@4891807c6bd8)
+    com.unity.ugui@2.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ugui@42f0bd825000)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.physics@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.physics@8d312bc11767)
+    com.unity.entities@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.entities@b4620332ec2d)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.mathematics@1.4.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.test-framework.performance@54c5bd86aedb)
+    com.unity.modules.hierarchy@1.0.0 (location: C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\Library\PackageCache\com.unity.modules.hierarchy)
 [Subsystems] No new subsystems found in resolved package list.
-[Package Manager] Done registering packages in 0.10 seconds
+[Package Manager] Done registering packages in 0.02 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Starting: C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
-WorkingDir: C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof
+WorkingDir: C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_Prof
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
 warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
       Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
-ExitCode: 0 Duration: 0s377ms
-[1147/1505  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
-*** Tundra build success (0.35 seconds), 1 items updated, 1505 evaluated
-AssetDatabase: script compilation time: 0.815813s
+ExitCode: 0 Duration: 2s290ms
+[1147/1505  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (2.24 seconds), 1 items updated, 1505 evaluated
+AssetDatabase: script compilation time: 3.009168s
 Begin MonoManager ReloadAssembly
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
@@ -268,280 +269,260 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.70 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
-TypeManager.Initialize took: 108ms
+TypeManager.Initialize took: 145ms
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-EscorregaHuguinho
 ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
 Scripting: successfully reloaded assembly
-- Finished resetting the current domain, in  1.226 seconds
-Domain Reload Profiling: 2338ms
-	BeginReloadAssembly (282ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (141ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (751ms)
-		LoadAssemblies (348ms)
-		TypeCache.Refresh (257ms)
-			TypeCache.ScanAssembly (239ms)
-		AnalyzeDomain (86ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1226ms)
+- Finished resetting the current domain, in  1.681 seconds
+Domain Reload Profiling: 2997ms
+	BeginReloadAssembly (314ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (431ms)
+		TypeCache.Refresh (300ms)
+			TypeCache.ScanAssembly (278ms)
+		AnalyzeDomain (102ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1682ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (397ms)
-			ProcessInitializeOnLoadMethodAttributes (405ms)
-			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Starting new worker id: 0 with log in C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof/Logs/AssetImportWorkerHW0.log
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (489ms)
+			ProcessInitializeOnLoadMethodAttributes (496ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Starting new worker id: 0 with log in C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_Prof/Logs/AssetImportWorkerHW0.log
 
-Asset Pipeline Refresh (id=6afdce8e851b2894e92de3637409d744): Total: 4.048 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+Asset Pipeline Refresh (id=b8b953cd56401f941b3127c183b92f42): Total: 7.200 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
 	(Values over 0.05ms)
 	Summary:
 		Imports: total=0 (actual=0, local cache=0, cache server=0)
-		Asset DB Process Time: managed=0 ms, native=1859 ms
-		Asset DB Callback time: managed=27 ms, native=101 ms
-		Scripting: domain reloads=1, domain reload time=1172 ms, compile time=818 ms, other=68 ms
-		Project Asset Count: scripts=2089, non-scripts=3713
+		Asset DB Process Time: managed=0 ms, native=2610 ms
+		Asset DB Callback time: managed=43 ms, native=31 ms
+		Scripting: domain reloads=1, domain reload time=1407 ms, compile time=3012 ms, other=94 ms
+		Project Asset Count: scripts=2094, non-scripts=3743
 		Asset File Changes: new=0, changed=0, moved=0, deleted=0
 		Scan Filter Count: 0
-	InvokePackagesCallback: 103.001ms
-	ApplyChangesToAssetFolders: 0.510ms
-	Scan: 180.053ms
-	Collect global state as custom dependencies: 15.950ms
-	CategorizeScriptCompilationAssets: 76.861ms
-	ProcessAssetsWithTransientArtifactChanges: 79.722ms
-	CategorizeAssets: 52.342ms
-	CompileScripts: 817.595ms
-	ImportOutOfDateAssets: 1248.886ms (1236.681ms without children)
-		UnloadImportedAssets: 0.496ms
-		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.778ms
-		ImportSchedulerStart: 10.891ms
-	PostProcessAllAssets: 27.509ms
-		MonoPostProcessAllAssets: 27.432ms
-			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.245ms
-			SyncVS.PostprocessSyncProject 2.820ms
-			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.420ms
-			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.949ms
-			EditModeScopePostprocessor.OnPostprocessAllAssets 0.649ms
-			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.554ms
-			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.523ms
-			CinemachineSettings.OnPostprocessAllAssets 0.204ms
-			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.202ms
-			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.196ms
-			DomainReloadProcessor.OnPostprocessAllAssets 0.157ms
-			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.157ms
-			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.149ms
-			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.120ms
-	UnloadStreamsBegin: 1.556ms
-	PersistCurrentRevisions: 0.192ms
-	GenerateScriptTypeHashes: 1.667ms
-	GenerateScriptTypeSerializationHashes: 3.187ms
-	Untracked: 1438.241ms
+	InvokePackagesCallback: 33.833ms
+	ApplyChangesToAssetFolders: 0.624ms
+	Scan: 264.790ms
+	Collect global state as custom dependencies: 24.248ms
+	CategorizeScriptCompilationAssets: 238.534ms
+	ProcessAssetsWithTransientArtifactChanges: 93.212ms
+	CategorizeAssets: 70.205ms
+	CompileScripts: 3011.810ms
+	ImportOutOfDateAssets: 1706.238ms (1691.435ms without children)
+		UnloadImportedAssets: 0.551ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.095ms
+		ImportSchedulerStart: 13.113ms
+	PostProcessAllAssets: 43.895ms
+		MonoPostProcessAllAssets: 43.819ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.400ms
+			SyncVS.PostprocessSyncProject 11.396ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.695ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.096ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.811ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.698ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.534ms
+			CinemachineSettings.OnPostprocessAllAssets 0.270ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.254ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.251ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.231ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.182ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.163ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.149ms
+	UnloadStreamsBegin: 2.555ms
+	PersistCurrentRevisions: 0.227ms
+	GenerateScriptTypeHashes: 2.311ms
+	GenerateScriptTypeSerializationHashes: 4.383ms
+	Untracked: 1689.248ms
 
 Application.AssetDatabase Initial Refresh End
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Scanning for USB devices : 4.698ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.057ms
 Initializing Unity extensions:
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
 Loaded scene 'Assets/Scenes/DEFINITIVA.unity'
-	Deserialize:            34.978 ms
-	Integration:            67.602 ms
-	Integration of assets:  6.116 ms
-	Thread Wait Time:       -1.058 ms
-	Total Operation Time:   107.638 ms
-Unloading 9280 unused Assets / (9.0 MB). Loaded Objects now: 10643.
-Memory consumption went from 0.52 GB to 0.52 GB.
-Total: 12.429400 ms (FindLiveObjects: 0.705500 ms CreateObjectMapping: 0.326700 ms MarkObjects: 7.892400 ms  DeleteObjects: 3.089700 ms)
+	Deserialize:            203.878 ms
+	Integration:            115.910 ms
+	Integration of assets:  36.618 ms
+	Thread Wait Time:       -32.677 ms
+	Total Operation Time:   323.730 ms
+Unloading 9284 unused Assets / (7.9 MB). Loaded Objects now: 11969.
+Memory consumption went from 0.53 GB to 0.52 GB.
+Total: 17.350700 ms (FindLiveObjects: 0.870100 ms CreateObjectMapping: 0.459800 ms MarkObjects: 11.129000 ms  DeleteObjects: 4.516400 ms)
 
 [LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
-Worker ready: AssetImportWorkerHW0 0
-[LAYOUT] About to save layout C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/00000859601/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/otomc/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 [MODES] ModeService[default].InitializeCurrentMode
 [MODES] ModeService[default].RaiseModeChanged(default, default)
 <RI> Initializing input.
 Using Windows.Gaming.Input
-[Project] Loading completed in 9.181 seconds
-	Project init time: 				6.832 seconds
+Worker ready: AssetImportWorkerHW0 0
+[Project] Loading completed in 16.550 seconds
+	Project init time: 				13.301 seconds
 		Template init time: 		0.000 seconds
-		Package Manager init time: 		0.172 seconds
-		Asset Database init time: 		0.215 seconds
-		Global illumination init time: 	0.008 seconds
-		Assemblies load time: 			1.242 seconds
-		Unity extensions init time: 	0.021 seconds
-		Asset Database refresh time: 	4.048 seconds
-	Scene opening time: 			2.055 seconds
-##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793136789297,"processId":9708,"projectLoad":9.181129199999999,"projectInit":6.8322599,"templateInit":0.0,"packageManagerInit":0.1716855,"assetDatabaseInit":0.2146126,"globalIlluminationInit":0.0075299,"assembliesLoad":1.2418253,"unityExtensionsInit":0.0210895,"assetDatabaseRefresh":4.0484271,"sceneOpening":2.0550996}
-##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793136789297,"processId":9708,"editorVersion":"6000.6.5f1 (3ff58d469c8a)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
-Asset Pipeline Refresh (id=c49480ce9ed62084db948406fb6f110e): Total: 0.095 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+		Package Manager init time: 		0.371 seconds
+		Asset Database init time: 		0.902 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			1.595 seconds
+		Unity extensions init time: 	0.029 seconds
+		Asset Database refresh time: 	7.200 seconds
+	Scene opening time: 			2.883 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793344415812,"processId":94044,"projectLoad":16.5499212,"projectInit":13.3005019,"templateInit":0.0,"packageManagerInit":0.371461,"assetDatabaseInit":0.9015612,"globalIlluminationInit":0.0042855,"assembliesLoad":1.5949809,"unityExtensionsInit":0.028769,"assetDatabaseRefresh":7.2003915,"sceneOpening":2.8833653}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793344415812,"processId":94044,"editorVersion":"6000.6.5f1 (3ff58d469c8a)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=a051dd57ce8d4234dad0e6603d69fbaf): Total: 0.145 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Start Indexing on Editor startup
 [Indexing] Starting Initial Indexing for Assets
-Request Asset Garbage Collect because used heap size increased from 0.52 GB to 0.95 GB, exceeding the threshold of 256.0 MB.
-Unloading 79 Unused Serialized files (Serialized files now loaded: 0)
-Created GICache directory at C:/Users/00000859601/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.041s, timestamps: [10.594 - 10.635]
-Unloading 158 unused Assets / (16.9 MB). Loaded Objects now: 12075.
-Memory consumption went from 0.94 GB to 0.92 GB.
-Total: 29.197000 ms (FindLiveObjects: 1.102400 ms CreateObjectMapping: 0.474000 ms MarkObjects: 22.658700 ms  DeleteObjects: 4.553100 ms)
+Request Asset Garbage Collect because used heap size increased from 0.52 GB to 0.90 GB, exceeding the threshold of 256.0 MB.
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Created GICache directory at C:/Users/otomc/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.045s, timestamps: [16.744 - 16.789]
+Unloading 82 unused Assets / (4.2 MB). Loaded Objects now: 13327.
+Memory consumption went from 0.89 GB to 0.88 GB.
+Total: 33.079300 ms (FindLiveObjects: 1.152000 ms CreateObjectMapping: 0.512500 ms MarkObjects: 30.141600 ms  DeleteObjects: 0.844300 ms)
 
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
-Starting new worker id: 1 with log in C:/Users/00000859601/Documents/GitHub/oto/HeroShooter_Prof/Logs/AssetImportWorkerHW1.log
-[Licensing::Client] Successfully resolved entitlement details
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '85c0df3eb8dfe2c8fea50f9876603735') in 0.0936478 seconds
 [Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "rSbWjDM8"... (expires: 2026-10-27T22:11:02Z)
-Worker ready: AssetImportWorkerHW1 1
+[Licensing::Module] Successfully updated access token: "TV3AdrNW"... (expires: 2026-10-30T07:44:11Z)
 [Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/otomc/OneDrive/Documentos/GitHub/oto/HeroShooter_Prof/Logs/AssetImportWorkerHW1.log
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+[Worker0] Imported GUID: 26ed50e23fc3a7347abc2edfc5ed0d45 - Path: Assets/Projeto/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f89ae1801402d8e82fe67714e1599977') in 0.4117065 seconds
+[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b3151c2384fb4902125a23994cbfc193') in 0.0853173 seconds
+[Worker0] Imported GUID: 0c6e80b0ffd61384faf48a9fcf1ef0d9 - Path: Assets/Projeto/Scripts/PlayerHealth.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'beb53940b699eb2b8da41b21b4577fcf') in 0.0358425 seconds
+Asset Pipeline Refresh (id=1cb18bee1be7aed4c933216c903c221c): Total: 0.073 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 TrimDiskCacheJob: Current cache size 0mb
+
+[main 2026-10-30T07:14:15.810Z] [node-compile-cache] main: packaged cache enabled (status: enabled, configured: C:\Users\otomc\AppData\Local\Programs\Microsoft VS Code\2c33b50b16\resources\app\node-compile-cache\main, active: C:\Users\otomc\AppData\Local\Programs\Microsoft VS Code\2c33b50b16\resources\app\node-compile-cache\main\v24.22.1-x64-60e4fe36)
+[main 2026-10-30T07:14:15.832Z] StorageMainService: creating application shared storage
+[main 2026-10-30T07:14:15.988Z] [shared storage] Creating shared storage database at 'c:\Users\otomc\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+[main 2026-10-30T07:14:15.989Z] [shared storage] Initializing fallback application storage (path: c:\Users\otomc\AppData\Roaming\Code\User\globalStorage\state.vscdb)
+[main 2026-10-30T07:14:16.041Z] [shared storage] Fallback application storage initialized with 122 items
+[main 2026-10-30T07:14:16.703Z] update#setState idle
+[main 2026-10-30T07:14:16.732Z] AgentHostProcessManager: agent host started
+[main 2026-10-30T07:14:17.789Z] [AgentHost:stderr] (node:87340) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+
+(node:158032) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+Unknown channel: agentHostClientByokLm
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+[main 2026-10-30T07:14:46.743Z] update#setState checking for updates
+[main 2026-10-30T07:14:46.982Z] update#setState idle
+Scanning for USB devices : 2.745ms
+Scanning for USB devices : 1.293ms
+[main 2026-10-30T07:23:34.375Z] Extension host with pid 158908 exited with code: 0, signal: unknown.
+[main 2026-10-30T07:23:50.207Z] Extension host with pid 68392 exited with code: 0, signal: unknown.
+Asset Pipeline Refresh (id=8e2ad81453630f24ba09da515c4fd050): Total: 0.085 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
 Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
-Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '1234d6af70f66210ce7cfda4e66e8b00') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1def488656846da6ef2e03206928b0e0 StaticDependenciesID=a0cf3dfdae99c755d92b7948d1cfcae0 
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '1234d6af70f66210ce7cfda4e66e8b00') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=1def488656846da6ef2e03206928b0e0 StaticDependenciesID=a0cf3dfdae99c755d92b7948d1cfcae0 
+Importing 'GUID: 0143c5b21b48c1643bc5417c60bbf848 - Path: Packages/com.unity.probuilder/Content/Resources/com.unity.probuilder/Materials/FacePickerURP.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 0143c5b21b48c1643bc5417c60bbf848' -> (Import Result ID: 'ddc69bdfbe04a5af144cbacea1fcce00') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=b483798c71c8e8c65c47ae9df7120b53 DependenciesID=d804a3669891f4a48dd9c65b7c5893bc StaticDependenciesID=5677b4841ff433a3e6c3e7bcfc2c66cf 
 Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
 Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Importing 'GUID: c22777d6e868e4f2fb421913386b154e - Path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat' with importer (NativeFormatImporter)
-Imported 'GUID: c22777d6e868e4f2fb421913386b154e' -> (Import Result ID: '81feccf3c9b6ddb552253be7fd0a8f04') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac1e421262df60e4e0b869edb87ff084 DependenciesID=d0598d5f295f8d794f93899e223608b8 StaticDependenciesID=9ff0cacd4d653408c3da5ad738434f98 
-Asset Pipeline Refresh (id=b81af31c1ab884444b3c872d9a051e38): Total: 0.065 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity' with importer (DefaultImporter)
-Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: 'ed535235510cce90ab1e1f83e16e039d') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=419eae480f4cf1e828d483c3c457aa6d StaticDependenciesID=7f7123d3452aa44942b861e360cd80a9 
-Asset Pipeline Refresh (id=366315d72c70146489837365a96f2d8d): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fdb6d9d9fe0174fa3c602cc775f738d6') in 0.0133575 seconds
-Asset Pipeline Refresh (id=75375f0decdb1e648b14b9a65e5704c7): Total: 0.016 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Worker0] Imported GUID: 8936f651a04954c1ab5451d552bee65c - Path: Assets/Projeto/Materials - Importer: PreviewImporter -> (ImportResultId: 'fb9de5283680fb920b018137f4a0aec1') in 0.0121739 seconds
-[Worker0] Imported GUID: f0d7e51d9153148cc9aca7658c398d0a - Path: Assets/Projeto/Materials/Enemy.mat - Importer: PreviewImporter -> (ImportResultId: 'e5621497c3a747946e2b6cf30fea7513') in 0.3096184 seconds
-[Worker1] Imported GUID: 0d489b2169b2345d18f673f312704bf9 - Path: Assets/Projeto/Materials/Ground.mat - Importer: PreviewImporter -> (ImportResultId: 'f905b62699a5e4d0777e9e5b491096fb') in 0.3063725 seconds
-[Worker1] Imported GUID: bc6e5b961be2c486f9b8f0e58ba068a0 - Path: Assets/Projeto/Materials/Hugo.mat - Importer: PreviewImporter -> (ImportResultId: 'fa28bdfb85162b687e4471aa370e31d8') in 0.0225184 seconds
-[Worker0] Imported GUID: c097e51b69e4c4a7f8f68ac3764d638f - Path: Assets/Projeto/Materials/Ice.mat - Importer: PreviewImporter -> (ImportResultId: 'a6c7f83c27fa45bf975e8be98846e2fb') in 0.024059 seconds
-[Worker1] Imported GUID: 5c41044c97029459688a4455747cd68d - Path: Assets/Projeto/Materials/Oto.mat - Importer: PreviewImporter -> (ImportResultId: '3b07b1cb00c2d648629d50b1c18b772e') in 0.0156321 seconds
-[Worker0] Imported GUID: 22c0f63fb479a4a989e159a42a7165c4 - Path: Assets/Projeto/Materials/Gun.mat - Importer: PreviewImporter -> (ImportResultId: '8997f25c501d95242a3f887ca18d5e70') in 0.0150803 seconds
-[Worker1] Imported GUID: 5fc0b7b8ab425466b8b4247c4fab51fe - Path: Assets/Projeto/Materials/Wall.mat - Importer: PreviewImporter -> (ImportResultId: '632ec78b173e81e58e1ed78f1fa7c4f9') in 0.0155572 seconds
-[Worker0] Imported GUID: e3768011a9eb24a55b242a5d1915a4c9 - Path: Assets/Projeto/Materials/Obstacle.mat - Importer: PreviewImporter -> (ImportResultId: '5a064e98e577067e3ec8ed382414428e') in 0.0150069 seconds
-[Worker0] Imported GUID: aaa47d2db67b146aeb4bc2cfaecfbd9a - Path: Assets/Projeto/Materials/Player.mat - Importer: PreviewImporter -> (ImportResultId: '0330962cc2079a1a21143f6fe107f8f8') in 0.0150461 seconds
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "H0oLA9Da"... (expires: 2026-10-28T00:10:26Z)
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=4fe5a8a293bf15b48a00037ef6b1eb05): Total: 0.010 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=69fe3adc91799ed41aeb8802a74b66b9): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Scanning for USB devices : 4.066ms
-Scanning for USB devices : 4.154ms
-Importing 'GUID: 0143c5b21b48c1643bc5417c60bbf848 - Path: Packages/com.unity.probuilder/Content/Resources/com.unity.probuilder/Materials/FacePickerURP.mat' with importer (NativeFormatImporter)
-Imported 'GUID: 0143c5b21b48c1643bc5417c60bbf848' -> (Import Result ID: 'ddc69bdfbe04a5af144cbacea1fcce00') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=b483798c71c8e8c65c47ae9df7120b53 DependenciesID=d804a3669891f4a48dd9c65b7c5893bc StaticDependenciesID=5677b4841ff433a3e6c3e7bcfc2c66cf 
-Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Importing 'GUID: c22777d6e868e4f2fb421913386b154e - Path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat' with importer (NativeFormatImporter)
-Imported 'GUID: c22777d6e868e4f2fb421913386b154e' -> (Import Result ID: '81feccf3c9b6ddb552253be7fd0a8f04') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac1e421262df60e4e0b869edb87ff084 DependenciesID=d0598d5f295f8d794f93899e223608b8 StaticDependenciesID=9ff0cacd4d653408c3da5ad738434f98 
+Importing 'GUID: d97a30277097a6a40a1ed1dfa1e93c41 - Path: Assets/Projeto/Materials/Materials/tijolopedratexture.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d97a30277097a6a40a1ed1dfa1e93c41' -> (Import Result ID: 'f61562ceeb6e410ce318d3929e022dfa') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=8237c9974768179a4748aada519c9ec8 DependenciesID=8edde5c2ba5d5550696d9e48323e3bb3 StaticDependenciesID=935cd0c1d8cc95e98d7ed0c85e27c61c 
 The following asset(s) located in immutable packages were unexpectedly altered. Making changes to immutable packages isn't recommended because the changes can be lost without any warning during Package Manager operations.
   Packages/com.unity.probuilder/Content/Resources/com.unity.probuilder/Materials/FacePickerURP.mat
-Refreshing native plugins compatible for Editor in 2.31 ms, found 5 plugins.
-Asset Pipeline Refresh (id=2a15d67cd8f4073428120204eaf4994b): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Refreshing native plugins compatible for Editor in 2.02 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=db9d97ed1a669eb4d8a4b00b9a6a07f9): Total: 0.355 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=4 (actual=4, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=116 ms
+		Asset DB Callback time: managed=209 ms, native=24 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2094, non-scripts=3743
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 14
+	ApplyChangesToAssetFolders: 0.099ms
+	Scan: 9.083ms
+	Collect global state as custom dependencies: 0.370ms
+	OnSourceAssetsModified: 2.818ms
+	CategorizeScriptCompilationAssets: 0.218ms
+	ProcessAssetsWithTransientArtifactChanges: 3.472ms
+	CategorizeAssets: 25.865ms
+	ImportOutOfDateAssets: 40.475ms (0.228ms without children)
+		ImportManagerImport: 35.831ms (2.953ms without children)
+			UpdateCategorizedAssets: 0.061ms
+		ReloadNativeAssets: 0.081ms
+		UnloadImportedAssets: 0.142ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.772ms
+		ImportSchedulerStart: 3.413ms
+	PostProcessAllAssets: 220.257ms
+		XRBuildSystem.XRAssetImported 9.199ms
+		PostProcessCallbackCreateDeferredMaterials 0.207ms
+		VCAutoAddAssetPostprocess 0.156ms
+		MonoPostProcessAllAssets: 208.165ms
+			AssetPostprocessor.OnPostprocessAllAssets 114.061ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 18.331ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 9.617ms
+			SceneAssetPostProcessor.OnPostprocessAllAssets 8.755ms
+			PostProcessor.OnPostprocessAllAssets 5.232ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 4.359ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 3.945ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.800ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 2.646ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 2.557ms
+			SyncVS.PostprocessSyncProject 2.534ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 2.483ms
+			SamplePostprocessor.OnPostprocessAllAssets 2.266ms
+			AssetChangedListener.OnPostprocessAllAssets 2.132ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 1.911ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 1.726ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.509ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.506ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.394ms
+			AssetReloadNotifier.OnPostprocessAllAssets 1.274ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.254ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.083ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.706ms
+			AssetEvents.OnPostprocessAllAssets 0.632ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.356ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.291ms
+			CinemachineSettings.OnPostprocessAllAssets 0.236ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.090ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.053ms
+	PostAssetChangesProfiler: 11.215ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.418ms
+	UnloadStreamsBegin: 1.461ms
+	PersistCurrentRevisions: 0.279ms
+	UnloadStreamsEnd: 0.057ms
+	Untracked: 38.575ms
+
 Importing 'GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity' with importer (DefaultImporter)
-Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: 'c36723a4d314982c917e5607bb97199f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=a2767054f7e7a76bdc5e1939ba8d2c9e StaticDependenciesID=e62b3f0cf063eb475cf8bafa25235971 
-Asset Pipeline Refresh (id=56aa9480ec382904aa45defe629fd776): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a6b8a2733ab7420eff618412ca9b19ff') in 0.019489 seconds
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=47faf2f923f4c78408b56c19ffb6b2f6): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=9b4d1c335891ff548b88371453daa64e): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=48da9bc3940c4474583555a1d4269597): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=6d8f399498400b545ae83485381b5419): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=356c8ee347d743f4eaf4c8ae14695e83): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=fc55a3103fb94754b957d2df6c530138): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=07279d84278bd184f8f0a888539ea208): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=1ec082f2e8248a048b6341580e5bbd2a): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=a0486014723ef3b4a9d0dc6ae8d03dec): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=c80b7226e6735b347b72b91a99726f15): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
-EditorHelper: Unable to use the external script editor. Trying the internal script editor now.
-Asset Pipeline Refresh (id=b58a52e0f727d5242964459156327981): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=1d99342ea036d424faca14789fb30cd4): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=5057257ab2b67824b825baa8d5d3ae9a): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=21306ba0c0df48b47baf79d7bda80f87): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=7d9d65cfb8c7d23448f5a8e30b66844b): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=f2c74f07247d8a9489f3d8ff2f67c069): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=c94c3fb51e9e4c74fb333b7a949db679): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=0beb165ee1c92494abf63e1bff76a664): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=4b0d671217773684995fb45b54a1342f): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=b12be0aac4ac9ac469ca87713f339edd): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=578e068e74b32f34aab6997d1fab5e73): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=cb6ecaa78a47bb14aac1f4db2c8dd9bf): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=dcab2661196e66041aa0dd64a1c2497e): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=a7e85f8c8b5a7e74496226c7a002ceeb): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=2a2cf1258c3e8e54c9c3f3e81dd5cb2d): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully updated the access token
-[Licensing::Module] Successfully updated access token: "2KaEVYqy"... (expires: 2026-10-28T02:09:33Z)
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Asset Pipeline Refresh (id=2345f27308e9df049867220e78e2d6c6): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=90509e9f0653f59408d1765b05a64b67): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=46c45a66f7198e44796518f2da7c0029): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=28bbc311628eb1141bbe81c6b2c5f8e9): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=6aa37cb59b11b7744bc15c099bc5b719): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=1e8b3ced2b50abf41a32ec27283820fd): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=8190a589b3bbf94488e9439d46cc0c77): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=c27f2d708fbe9dd42bcc58db8016d77c): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=29c58a50673ef0441b72e1f00196ec28): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=f079083034e9db5449f54a99be50089d): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=09f59b9b1ccfeb6458f23b537ad8800a): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=a7557f8cff3dce84887f812105b2a23a): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Importing 'GUID: c22777d6e868e4f2fb421913386b154e - Path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat' with importer (NativeFormatImporter)
-Imported 'GUID: c22777d6e868e4f2fb421913386b154e' -> (Import Result ID: '81feccf3c9b6ddb552253be7fd0a8f04') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac1e421262df60e4e0b869edb87ff084 DependenciesID=d0598d5f295f8d794f93899e223608b8 StaticDependenciesID=9ff0cacd4d653408c3da5ad738434f98 
-Asset Pipeline Refresh (id=07bf607387d2cfd4ca7bf658229a1101): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity' with importer (DefaultImporter)
-Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: '41eb589d9e53d65af29d0c6c3d6487df') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=1477e6d6b01effb12cb332d79e18634b StaticDependenciesID=21a2f98e8359250f7c33ed2d51c6086b 
-Asset Pipeline Refresh (id=f9e441532aa1de846b5e1381805d9410): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b007fae1d5e05883b2190ac0bccc9877') in 0.0215644 seconds
-Asset Pipeline Refresh (id=aac3f0e7b1ded3a4984b2ce4439a0994): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=bfc56b024efd69a4fa7f103e410105e6): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=74686f126f38a7f429cf3eb88de2482b): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Importing 'GUID: c22777d6e868e4f2fb421913386b154e - Path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat' with importer (NativeFormatImporter)
-Imported 'GUID: c22777d6e868e4f2fb421913386b154e' -> (Import Result ID: '81feccf3c9b6ddb552253be7fd0a8f04') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac1e421262df60e4e0b869edb87ff084 DependenciesID=d0598d5f295f8d794f93899e223608b8 StaticDependenciesID=9ff0cacd4d653408c3da5ad738434f98 
-Asset Pipeline Refresh (id=e889a0b5ee159094eaecaf5980ad58c1): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity' with importer (DefaultImporter)
-Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: '59966690ec6c4efd25a7b0db2e5b275c') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=353cd1a7d0e07749f15a90c8a30f3dd9 StaticDependenciesID=1c48ce473a0e39ff24686025694f2396 
-Asset Pipeline Refresh (id=9fc132c05b19fd04892a5676788da97e): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1cf31b98a954f2bea39192ebfb174a59') in 0.0173772 seconds
-Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Asset Pipeline Refresh (id=bcaa950f299a60d42b236bb784056b64): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Asset Pipeline Refresh (id=7624dec6b59cf004f8121d29d5ac472d): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=23630d29d1b25634592c5195c7a83bc8): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=5fb443e332486db489d87d9cf9e8b0e3): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=b658b016f202c504ab91a0109ba68090): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=c0141ffa428d80341958cb38a2d2ed15): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Asset Pipeline Refresh (id=e684e0daee75d5b4eaeb719642c122ba): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
-Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Importing 'GUID: c22777d6e868e4f2fb421913386b154e - Path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat' with importer (NativeFormatImporter)
-Imported 'GUID: c22777d6e868e4f2fb421913386b154e' -> (Import Result ID: '81feccf3c9b6ddb552253be7fd0a8f04') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ac1e421262df60e4e0b869edb87ff084 DependenciesID=d0598d5f295f8d794f93899e223608b8 StaticDependenciesID=9ff0cacd4d653408c3da5ad738434f98 
-Asset Pipeline Refresh (id=ec5d894571b48144c8017ce96754fa84): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-Importing 'GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity' with importer (DefaultImporter)
-Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: 'f3cefd6e8a8767adb761035b94fa14de') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=7f5666a83349d77f3e3cbc5efb21f4bb StaticDependenciesID=177dae55d874e7c4585351c6b9a81e98 
-Asset Pipeline Refresh (id=152b282a696ee0c4c91c74fc7ad48a45): Total: 0.032 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
-[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7de99c095ba564fa2d4838ce433fcdec') in 0.0247282 seconds
-MonoPathRemapper: Attempts to remap: 69702; Successful remaps: 66
+Imported 'GUID: 30060451abe4f0e4cb858a2711c03721' -> (Import Result ID: 'a83b16741ece302b2b4415e4d4b3cf00') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7674179ac9f5ea0cacfd18280b5dd14e DependenciesID=b5dd01415160a5bb4912cb33feb0d839 StaticDependenciesID=9d5336a10264b1eb5a7b4f6b2c323973 
+Asset Pipeline Refresh (id=f0f41b09e511d0f49994147229d7faad): Total: 0.052 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 30060451abe4f0e4cb858a2711c03721 - Path: Assets/Scenes/DEFINITIVA.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa8d0eedd840fbb36a8478ddff95901d') in 0.041372 seconds
+MonoPathRemapper: Attempts to remap: 24818; Successful remaps: 24
 Serialized file version minimum: 22, current 23
-[LAYOUT] About to save layout C:\Users\00000859601\Documents\GitHub\oto\HeroShooter_Prof\UserSettings\Layouts\default-6000.dwlt
-[LAYOUT] About to save layout C:/Users/00000859601/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[LAYOUT] About to save layout C:\Users\otomc\OneDrive\Documentos\GitHub\oto\HeroShooter_Prof\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/otomc/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
 Importing 'GUID: e1aaa6b9cf1d64339a059136349189f1 - Path: Assets/Projeto/MiniMap/MapRenderText.renderTexture' with importer (NativeFormatImporter)
-Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
-Refreshing native plugins compatible for Editor in 2.87 ms, found 5 plugins.
-Asset Pipeline Refresh (id=c13412b659704ed4c9531986b70d4aee): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Imported 'GUID: e1aaa6b9cf1d64339a059136349189f1' -> (Import Result ID: '443b26001485820ffad94fa53a83d962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1054b2773b40ff11df25562be3512046 DependenciesID=6a88e89f9282e9e3434e5a66eb4c85f8 StaticDependenciesID=6f4dbae56f7c6894949b764414be3eb8 
+Importing 'GUID: d97a30277097a6a40a1ed1dfa1e93c41 - Path: Assets/Projeto/Materials/Materials/tijolopedratexture.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d97a30277097a6a40a1ed1dfa1e93c41' -> (Import Result ID: 'f61562ceeb6e410ce318d3929e022dfa') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=8237c9974768179a4748aada519c9ec8 DependenciesID=8edde5c2ba5d5550696d9e48323e3bb3 StaticDependenciesID=935cd0c1d8cc95e98d7ed0c85e27c61c 
+Refreshing native plugins compatible for Editor in 2.70 ms, found 5 plugins.
+Asset Pipeline Refresh (id=37c9065b81c897c439c330af1223cde5): Total: 0.035 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
@@ -551,8 +532,8 @@ Input System module state changed to: Shutdown.
 'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 [Physics::Module] Cleanup current backend.
 [Physics::Module] Id: 0xf2b8ea05
-[Licensing::IpcConnector] LicenseClient-00000859601-notifications channel disconnected successfully.
-[Licensing::IpcConnector] LicenseClient-00000859601 channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-otomc-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-otomc channel disconnected successfully.
 Lingering sessions upon destruction of worker manager
 Unity Data Store service was successfully shut down
 UDS shutting down local client system
@@ -560,13 +541,16 @@ Shut down UDS service system complete
 AcceleratorClientConnectionCallback - disconnected - :0
 Cleanup mono
 CodeReloadManager destroyed
-abort_threads: Failed aborting id: 0000000000007308, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 0000000000011F68, mono_thread_manage will ignore it
 
-abort_threads: Failed aborting id: 0000000000007308, mono_thread_manage will ignore it
+abort_threads: Failed aborting id: 000000000001AC74, mono_thread_manage will ignore it
 
-debugger-agent: Unable to listen on 5188
-VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
-Checking for leaked weakptr:
-  Found no leaked weakptrs.
+abort_threads: Failed aborting id: 0000000000011F68, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000001AC74, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5012
+[main 2026-10-30T07:36:08.163Z] Extension host with pid 67716 exited with code: 0, signal: unknown.
+ked weakptrs.
 [Package Manager] Server process was shutdown
-##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793147285242,"processId":9708,"allocatedMemory":25414810,"memoryLabels":[{"Default":538254},{"Permanent":15516},{"NewDelete":72609},{"Thread":4210720},{"Manager":3086232},{"VertexData":8},{"Geometry":816},{"Shader":871648},{"Material":103618},{"TextureCache":2736},{"GfxDevice":165904},{"GfxThread":15360},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":254472},{"Input":45280},{"JobScheduler":256},{"TextLib":36138},{"Mono":48},{"MonoCode":10112},{"ScriptingNativeRuntime":1802216},{"BaseObject":48848},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":46002},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":335732},{"StaticString":3808},{"Utility":2676082},{"Curl":48},{"PoolAlloc":5480},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":5837},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":936},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":803743},{"EditorUtility":698764},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8984368},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":272},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3606},{"Windowing":456},{"Licensing":12811},{"AssetReference":32},{"IPCStream":32}]}
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793345713939,"processId":94044,"allocatedMemory":37151757,"memoryLabels":[{"Default":315690},{"Permanent":15516},{"NewDelete":71049},{"Thread":4208968},{"Manager":3082488},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":868568},{"Material":8026},{"GfxDevice":62752},{"GfxThread":9984},{"Animation":952},{"Audio":696},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":241080},{"Input":45280},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"MonoCode":8960},{"ScriptingNativeRuntime":1549496},{"BaseObject":48848},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":19265},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":325238},{"StaticString":3808},{"Utility":2675018},{"Curl":48},{"PoolAlloc":5384},{"AI":80},{"TypeTree":14869},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":4626},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":936},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":13298968},{"EditorUtility":696800},{"VersionControl":8},{"Undo":931},{"AssetDatabase":8984648},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12805},{"AssetReference":32},{"IPCStream":32}]}

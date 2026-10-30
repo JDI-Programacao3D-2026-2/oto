@@ -8,8 +8,8 @@ public class MouseOrbit : MonoBehaviour
     public float MouseSensitivity = 0.2f;
     private float rotX;
     private float rotY;
-    public float minY = -30f;
-    public float maxY = 60f;
+    public float minY = -60f;
+    public float maxY = 90f;
 
 void Start()
     {

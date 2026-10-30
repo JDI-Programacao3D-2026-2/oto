@@ -17,7 +17,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI fragText;
     public TextMeshProUGUI deathText;
     public TextMeshProUGUI playerNameText;
+     public GameObject player;
+    public Transform spawnPoint;
 
+   
     void Start()
     {
         StopCountDown = false;
@@ -70,4 +73,10 @@ public class GameManager : MonoBehaviour
     {
         playerNameText.text = playerName;
     }
+     public void RespawnPlayer()
+    {
+        player.transform.position = spawnPoint.position;
+        player.SetActive(true);
+    }
+
 }

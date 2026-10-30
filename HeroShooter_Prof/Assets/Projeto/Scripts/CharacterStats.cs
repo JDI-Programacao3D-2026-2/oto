@@ -42,5 +42,6 @@ public class CharacterStats : MonoBehaviour
         Player,
         Ally,
         Enemy
+        
     }
 }
